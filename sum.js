@@ -1,4 +1,8 @@
 function sum(a,b){
     return a + b;
 }
-module.exports=sum;
+
+function sumStr(a,b){
+    return a+b;
+}
+module.exports={sum,sumStr};
